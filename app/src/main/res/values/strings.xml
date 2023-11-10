@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InsuraceAgencySelectionApp</string>
+    <string name="title_home">AddArticle</string>
+    <string name="title_dashboard">Article List</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">cancelar</string>
+</resources>

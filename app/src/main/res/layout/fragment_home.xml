@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="10dp"
+                android:text="Titulo"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/inputs_desing"
+                android:inputType="text"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="10dp"
+                android:text="Autor"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                />
+
+            <EditText
+                android:id="@+id/autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/inputs_desing"
+                android:inputType="text"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="10dp"
+                android:text="Fecha"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/inputs_desing"
+                android:inputType="date"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingLeft="10dp"
+                android:text="Contenido"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="8dp"
+                android:inputType="textMultiLine"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:gravity="top"
+                android:background="@drawable/inputs_desing"/>
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
